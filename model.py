@@ -37,9 +37,9 @@ class Model(object):
 			self.w.append([])
 			for j in range(len(self.observations[i])):
 				self.w[i].append(pm.Categorical("w[%i][%i]" % (i, j), 
-				                         p = pm.Lambda("phi[z[%i][%i]]" % (i, j), lambda z = self.z[i][j], phi = self.phi: phi[z]), 
-				                         value = self.observations[i][j],
-				                         observed = True))
+				                         		p = pm.Lambda("phi[z[%i][%i]]" % (i, j), lambda z = self.z[i][j], phi = self.phi: phi[z]), 
+				                         		value = self.observations[i][j],
+				                         		observed = True))
 		self.w = pm.Container(self.w)				
 
 		self.mcmc = pm.MCMC(pm.Model([self.theta, self.phi, self.z, self.w]))
