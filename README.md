@@ -22,14 +22,15 @@ Run project using ```python3 main.py```. Change constructor arguments in ```main
 
 The following ```top = 10``` most significant words per topic were obtained for a subset of ```size = 100``` documents from the blei-ap corpus, using the following LDA model parameters ```K = 10, iterations = 4000, burn = 500```:
 ```
-Topic 0:  ['original', 'slain', 'private', 'character', 'earlier', 'company', 'wonder', 'christian', 'rumored', screen']
-Topic 1:  ['resolved', 'shell', 'grzegorz', 'pistol', 'killed', 'personality', 'jesus', 'tunnel', 'efficient', 'district']
-Topic 2:  ['snapped', 'aircraft', 'report', 'grade', 'snapshot', 'democracy', 'instrument', 'group', 'peggy', 'economy']
-Topic 3:  ['though', 'parent', 'constant', 'incident', 'widely', 'racism', 'airplane', 'would', 'california', 'screen']
-Topic 4:  ['sometimes', 'first', 'afroamerican', 'arabian', 'anything', 'floor', 'kielce', 'revenue', 'considered', 'might']
-Topic 5:  ['totaled', 'manadatory', 'worst', 'mattress', 'plane', 'purchased', 'determine', 'pastor', 'borrowed', 'relation']
-Topic 6:  ['junior', 'tonsil', 'potential', 'antisubmarine', 'detective', 'anchor', 'slightly', 'firing', 'authority', 'firstdegree']
-Topic 7:  ['robinson', 'collection', 'think', 'north', 'peggy', 'troubled', 'composition', 'finally', 'executed', 'sweet']
-Topic 8:  ['companion', 'debra', 'didnt', 'economy', 'united', 'christian', 'safety', 'expected', 'manadatory', 'sometimes']
-Topic 9:  ['experienced', 'serious', 'killjoy', 'elliott', 'statement', 'building', 'maurice', 'power', 'although', 'survivor']
+Topic 0:  ['radio', 'affirmative', 'corralled', 'alarmed', 'elsewhere', 'damned', 'treatment', 'shearson', 'pressure', 'commitment']
+Topic 1:  ['suspended', 'consider', 'effort', 'secondmost', 'marked', 'perfect', 'announced', 'pleaded', 'precipitous', 'witness']
+Topic 2:  ['okinawa', 'backdating', 'measurement', 'moving', 'manslaughter', 'proponent', 'overall', 'attack', 'withheld', 'breakin']
+Topic 3:  ['foreign', 'allen', 'restriction', 'horner', 'preparing', 'searing', 'ballet', 'detroit', 'attention', 'instinct']
+Topic 4:  ['russian', 'latin', 'gairy', 'assistant', 'silesian', 'caucus', 'prosoviet', 'check', 'agent', 'baltic']
+Topic 5:  ['solving', 'industrial', 'vashem', 'couture', 'privatization', 'nayokpuk', 'manufacturer', 'attention', 'anymore', 'sometime']
+Topic 6:  ['joined', 'altman', 'trusted', 'mechanic', 'nimitz', 'unseasonably', 'stepped', 'trunk', 'merger', 'cicero']
+Topic 7:  ['percent', 'wealthier', 'reducing', 'million', 'growth', 'found', 'symbol', 'dollar', 'softening', 'selling']
+Topic 8:  ['lowerfat', 'reduce', 'another', 'backfire', 'comedian', 'sequined', 'procrastinating', 'nimitz', 'alleging', 'aircraft']
+Topic 9:  ['figure', 'surveyed', 'weight', 'cryostat', 'driver', 'represented', 'champagne', 'beleaguered', 'reality', 'oxymoron']
 ```
+It can be observed that topic 7 may be associated with the financial domain, while most words in topic 2 seem to be related to crime.
